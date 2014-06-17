@@ -66,7 +66,9 @@ The direct link to this data set in zipped (.zip) form (UCI Link) :
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%Dataset.zip
 
 File size:  62,556,944 bytes
-MD5: d29710c9530a31f303801b6bc34bd895                           
+
+MD5: d29710c9530a31f303801b6bc34bd895
+
 SHA-1: 566456a9e02a23c2c0144674d9fa42a8b5390e71
 
 
