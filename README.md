@@ -63,7 +63,7 @@ The data:
 ---------
 The direct link to this data set in zipped (.zip) form (UCI Link) :
 
-http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%Dataset.zip
+http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
 File size:  62,556,944 bytes
 
