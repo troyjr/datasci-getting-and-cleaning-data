@@ -19,8 +19,6 @@ The data source in question is a set of publicly available datasets from the Uni
 from their Center for Machine Learning and Intelligent Systems webpage. Currently, there are approximately 290 data sets available.
 http://archive.ics.uci.edu/ml/datasets.html
 
-The specific data sets this project will use are the  
-
 The data sets
 -------------
 The specific data sets are the "Human Activity Recognition Using Smartphones Data Set" 
@@ -64,6 +62,13 @@ Additional data set specific citation:
 The data:
 ---------
 The direct link to this data set in zipped (.zip) form (UCI Link) :
+
+http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%Dataset.zip
+
+File size:  62,556,944 bytes
+MD5: d29710c9530a31f303801b6bc34bd895                           
+SHA-1: 566456a9e02a23c2c0144674d9fa42a8b5390e71
+
 
 
  
