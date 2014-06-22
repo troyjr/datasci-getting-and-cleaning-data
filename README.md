@@ -72,7 +72,7 @@ MD5: d29710c9530a31f303801b6bc34bd895
 SHA-1: 566456a9e02a23c2c0144674d9fa42a8b5390e71
 
 Objectives
-==========
+-----------
 1. Create a tidy data set according to best practicies for tidying data ( this will be the result of the analysis)
  
 2. Create an  R script called run_analysis.R that does the following:
@@ -88,7 +88,7 @@ Objectives
 5. 
 
 The script
-============
+-----------
 
 The script to perform the tranformation is contained within this repository as "run_anaylsis.r".
 
