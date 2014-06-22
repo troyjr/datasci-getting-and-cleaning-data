@@ -7,8 +7,8 @@ Codebook
 |Time.Body.Acceleration.Magnitude.STDDEV| floating point |  Body acceleration Euclidean norm over sample time domain. Accelerometer reading.         |   1.0 to -1.0 | NA | NA |         
 |Time.Gravity.Acceleration.Magnitude.STDDEV| floating point | Gravity acceleration Euclidean norm over sample time domain. Accelerometer reading.          |   1.0 to -1.0 | NA | NA |         
 |Time.Body.Acceleration.Jerk.Magnitude.STDDEV|  floating point | Body linear acceleration and angular velocity Euclidean norm in time sample. Accelerometer reading.| 1.0 to -1.0 | NA | NA |     
-|Time.Body.Gyroscope.Magnitude.STDDEV|   floating point | Body           |   1.0 to -1.0 | NA | NA |   
-|Time.Body.Gyroscope.Jerk.Magnitude.STDDEV|    floating point |           |   1.0 to -1.0 | NA | NA |   
+|Time.Body.Gyroscope.Magnitude.STDDEV|   floating point | Body gyroscope reading of body linear acceleration and angular velocity in sample time domain. |   1.0 to -1.0 | NA | NA |   
+|Time.Body.Gyroscope.Jerk.Magnitude.STDDEV|    floating point | Body gyroscope reading of Euclidean norm over sample time domain of body linear acceleration and angular velocity        |   1.0 to -1.0 | NA | NA |   
 |FFT.Body.Acceleration.Magnitude.STDDEV|   floating point |           |   1.0 to -1.0 | NA | NA |   
 |FFT.Body.Body.Acceleration.Jerk.Magnitude.STDDEV|  floating point |           |   1.0 to -1.0 | NA | NA |   
 |FFT.Body.Body.Gyroscope.Magnitude.STDDEV|  floating point |           |   1.0 to -1.0 | NA | NA |   
