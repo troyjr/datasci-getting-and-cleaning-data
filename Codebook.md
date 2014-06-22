@@ -3,6 +3,7 @@ Codebook
 
 
 |Variable Name | Format | Variable Label | Valid range | Value for missing | Value for inapplicable |
+---------------|--------|----------------|-------------|-------------------|------------------------|
 |"Time.Body.Acceleration.Magnitude.STDDEV"| integer |           |   1.0 to -1.0 | NA | NA |         
 |"Time.Gravity.Acceleration.Magnitude.STDDEV"| integer |           |   1.0 to -1.0 | NA | NA |         
 |"Time.Body.Acceleration.Jerk.Magnitude.STDDEV"|  integer |           |   1.0 to -1.0 | NA | NA |     
