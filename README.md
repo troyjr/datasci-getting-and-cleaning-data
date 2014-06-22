@@ -85,7 +85,6 @@ Objectives
 
 3. Create a a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
 4. Document how the scripts work in this README.md
-5. 
 
 The script
 -----------
