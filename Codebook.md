@@ -10,7 +10,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FFT.Body.Acceleration-[XYZ], FFT.Body.Acceleration.Jerk-[XYZ], FFT.Body.Gyroscope-[XYZ], FFT.Body.Acceleration.Jerk.Magnitude, FFT.Body.Gyroscope.Magnitude, FFT.Body.Gyro.Jerk.Magnitude. (Note the 'FFT.' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote tri-axial signals in the X, Y and Z directions.
+'-X, -Y, or -Z' is used to denote tri-axial signals in the X, Y and Z directions.
 
 Time.Body.Acceleration-[XYZ]
 Time.Gravity.Acceleration-[XYZ]
@@ -30,23 +30,25 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals (filter from the original dataset): 
+The set of variables that were estimated from these signals (filtered from the original dataset) as indicated in the field names : 
 
-MEAN: Mean value
-STDDEV: Standard deviation
+.MEAN: Mean value
+.STDDEV: Standard deviation
 
 
 |Variable Name | Format | Variable Label | Valid range | Value for missing | Value for inapplicable |
 ---------------|--------|----------------|-------------|-------------------|------------------------|
-|Time.Body.Acceleration.Magnitude.STDDEV| floating point |  Body acceleration Euclidean norm over sample time domain. Accelerometer reading.         |   1.0 to -1.0 | NA | NA |         
+
+
+|Time.Body.Acceleration.Magnitude.[STDDEV|MEAN]| floating point |  Body acceleration Euclidean norm over sample time domain. Accelerometer reading.         |   1.0 to -1.0 | NA | NA |         
 |Time.Gravity.Acceleration.Magnitude.STDDEV| floating point | Gravity acceleration Euclidean norm over sample time domain. Accelerometer reading.          |   1.0 to -1.0 | NA | NA |         
 |Time.Body.Acceleration.Jerk.Magnitude.STDDEV|  floating point | Body linear acceleration and angular velocity Euclidean norm in time sample. Accelerometer reading.| 1.0 to -1.0 | NA | NA |     
 |Time.Body.Gyroscope.Magnitude.STDDEV|   floating point | Body linear acceleration and angular velocity in sample time domain. Gyroscope reading. |   1.0 to -1.0 | NA | NA |   
 |Time.Body.Gyroscope.Jerk.Magnitude.STDDEV|    floating point | Body Euclidean norm over sample time domain of body linear acceleration and angular velocity. Gyrocope reading.  |   1.0 to -1.0 | NA | NA |   
-|FFT.Body.Acceleration.Magnitude.STDDEV|   floating point |           |   1.0 to -1.0 | NA | NA |   
-|FFT.Body.Body.Acceleration.Jerk.Magnitude.STDDEV|  floating point |           |   1.0 to -1.0 | NA | NA |   
-|FFT.Body.Body.Gyroscope.Magnitude.STDDEV|  floating point |           |   1.0 to -1.0 | NA | NA |   
-|FFT.Body.Body.Gyroscope.Jerk.Magnitude.STDDEV |  floating point |           |   1.0 to -1.0 | NA | NA |   
+|FFT.Body.Acceleration.Magnitude.STDDEV|   floating point |  Fast fourier transform of body linear acceleration and angular velocity Euclidean norm in time sample. Accelerometer reading         |   1.0 to -1.0 | NA | NA |   
+|FFT.Body.Body.Acceleration.Jerk.Magnitude.STDDEV|  floating point | Fast fourier transform of body linear acceleration and angular velocity Euclidean norm in time sample. Accelerometer reading          |   1.0 to -1.0 | NA | NA |   
+|FFT.Body.Body.Gyroscope.Magnitude.STDDEV|  floating point |  Fast fourier transform of body  Euclidean norm over sample time domain. Gyroscope reading.  |   1.0 to -1.0 | NA | NA |   
+|FFT.Body.Body.Gyroscope.Jerk.Magnitude.STDDEV |  floating point |  Body linear acceleration and angular velocity Euclidean norm in time sample. Gyroscope reading.         |   1.0 to -1.0 | NA | NA |   
 |Time.Body.Acceleration.Magnitude.MEAN| floating point |           |   1.0 to -1.0 | NA | NA |             
 |Time.Gravity.Acceleration.Magnitude.MEAN|  floating point |           |   1.0 to -1.0 | NA | NA |         
 |Time.Body.Acceleration.Jerk.Magnitude.MEAN|  floating point |           |   1.0 to -1.0 | NA | NA |       
