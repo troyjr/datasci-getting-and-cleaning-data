@@ -71,8 +71,18 @@ MD5: d29710c9530a31f303801b6bc34bd895
 
 SHA-1: 566456a9e02a23c2c0144674d9fa42a8b5390e71
 
-
-
+Objectives
+==========
+1. Create a tidy data set according to best practicies for tidying data ( this will be the result of the analysis)
  
+2. Create an  R script called run_analysis.R that does the following:
+ 1.Merges the training and the test sets to create one data set.
+ 2. Extract only the measurements on the mean and standard deviation for each measurement.
+ 3. Uses descriptive activity names to name the activities in the data set
+ 4. Appropriately labels the data set with descriptive variable names. 
+ 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+3. Create a a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
+4. Document how the scripts work in this README.md
 
 
