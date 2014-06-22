@@ -38,7 +38,6 @@ The set of variables that were estimated from these signals (filtered from the o
 
 |Variable Name | Format | Variable Label | Valid range | Value for missing | Value for inapplicable |
 ---------------|--------|----------------|-------------|-------------------|------------------------|
-                                  
 |Activity| One of SITTING, STANDiNG, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | A description of the activity the subject was enganing in in the time domain | SITTING, STANDiNG, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | NA | 
 |Subject|   integer |   A unique number indicating a given subject   |   1-30 | NA | NA |       
 
