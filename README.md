@@ -105,4 +105,45 @@ The function does not write a csv to disk, but returns a data.frame variable whi
 
 The code is heavily commented and makes use of several helper functions written for this purpose.
 
+Basic pseudocode for the script is as follows:
+
+
+begin:  
+  read in "activity_labels.txt" from directory  
+  read in "features.txt" from directory  
+  for all datasets in the list "test", "train"  
+    call function "read_dataset" with arguments of directory, datasetname, dataframe of features, dataframe of activities
+    call function "filter_dataset" with arguments of dataset
+    call function "rename_columns" with arguments of dataset
+    add dataset to larger list of datasets
+  merge all datasets into single dataset
+  sort dataset column names alphabetically
+  if mean is true, calculate mean across subject and activity
+  if mean is not true, return final dataset
+end
+
+begin function "read_dataset":
+  read in dataset from directory and file "X_[test|train].txt"
+  assign column names from features to dataset
+  read in subjects from directory and file "subject_[test|train].txt"
+  append subjects as a column to dataset
+  read in activities from directory and file "y_[test|train].txt"
+  append activities as a column to dataset
+  join activity labels to dataset
+  return modified dataset
+end function
+
+being function "filter_dataset":
+  filter out dataset to only "standard deviation" and "mean" columns
+  include "subject" and "activity" columns
+  return modified dataset
+end function
+
+begin function "rename_columns"
+  rename columns to tidy names
+  return modified dataset
+end
+
+
+  
 
