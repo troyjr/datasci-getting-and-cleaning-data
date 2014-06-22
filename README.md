@@ -103,4 +103,6 @@ mean - a boolean value. If TRUE it will generate a summary table of means of all
 
 The function does not write a csv to disk, but returns a data.frame variable which can be used to write a csv (eg, with write.csv) or manipulated further.
 
+The code is heavily commented and makes use of several helper functions written for this purpose.
+
 
