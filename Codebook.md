@@ -35,25 +35,26 @@ The set of variables that were estimated from these signals (filtered from the o
 .MEAN: Mean value
 .STDDEV: Standard deviation
 
+There are a total of 68 variables. For brevity, the names of the fields have been summarised.
 
 |Variable Name | Format | Variable Label | Valid range | Value for missing | Value for inapplicable |
 ---------------|--------|----------------|-------------|-------------------|------------------------|
 |Activity| One of SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | A description of the activity the subject was enganing in in the time domain | SITTING, STANDiNG, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | NA | 
 |Subject|   integer |   A unique number indicating a given subject   |   1-30 | NA | NA |       
-|FFT.Body.Acceleration.Jerk.[MEAN or STDDEV].[XYZ] p     | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|FFT.Body.Acceleration.Magnitude.[MEAN or STDDEV]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|FFT.Body.Acceleration.[MEAN or STDDEV].[XYZ]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|FFT.Body.Body.Acceleration.Jerk.Magnitude.[MEAN or STDDEV]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|FFT.Body.Body.Gyroscope.Jerk.Magnitude.[MEAN or STDDEV]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|FFT.Body.Body.Gyroscope.Magnitude.[MEAN or STDDEV]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|FFT.Body.Gyroscope.[MEAN or STDDEV].[XYZ]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Acceleration.Jerk.Magnitude.[MEAN or STDDEV]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Acceleration.Jerk.[MEAN or STDDEV].[XYZ]       | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Acceleration.Magnitude.[MEAN]       | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Acceleration.[MEAN or STDDEV].[XYZ] | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Gyroscope.Jerk.Magnitude.[MEAN or STDDEV]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Gyroscope.Jerk.[MEAN or STDDEV].[XYZ]      | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Gyroscope.Magnitude.[MEAN or STDDEV]       | floating point |            | 1.0 to -1.0 | NA     |   NA       |                   
-|Time.Body.Gyroscope.[MEAN or STDDEV].[XYZ]        | floating point |            | 1.0 to -1.0 | NA     |   NA       |                                   
-|Time.Gravity.Acceleration.Magnitude.[MEAN or STDDEV]        | floating point |            | 1.0 to -1.0 | NA     |   NA       |                        
-|Time.Gravity.Acceleration.[MEAN or STDDEV].[XYZ]        | floating point |            | 1.0 to -1.0 | NA     |   NA       |                               
+|FFT.Body.Acceleration.Jerk.[MEAN or STDDEV].[XYZ] p     | floating point | See Notes.           | 1.0 to -1.0 | NA     |   NA       |                   
+|FFT.Body.Acceleration.Magnitude.[MEAN or STDDEV]      | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                   
+|FFT.Body.Acceleration.[MEAN or STDDEV].[XYZ]      | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                   
+|FFT.Body.Body.Acceleration.Jerk.Magnitude.[MEAN or STDDEV]      | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                   
+|FFT.Body.Body.Gyroscope.Jerk.Magnitude.[MEAN or STDDEV]      | floating point |  See Notes.              | 1.0 to -1.0 | NA     |   NA       |                   
+|FFT.Body.Body.Gyroscope.Magnitude.[MEAN or STDDEV]      | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                   
+|FFT.Body.Gyroscope.[MEAN or STDDEV].[XYZ]      | floating point |  See Notes.              | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Acceleration.Jerk.Magnitude.[MEAN or STDDEV]      | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Acceleration.Jerk.[MEAN or STDDEV].[XYZ]       | floating point |  See Notes.              | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Acceleration.Magnitude.[MEAN]       | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Acceleration.[MEAN or STDDEV].[XYZ] | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Gyroscope.Jerk.Magnitude.[MEAN or STDDEV]      | floating point |  See Notes.              | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Gyroscope.Jerk.[MEAN or STDDEV].[XYZ]      | floating point |  See Notes.              | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Gyroscope.Magnitude.[MEAN or STDDEV]       | floating point |  See Notes.              | 1.0 to -1.0 | NA     |   NA       |                   
+|Time.Body.Gyroscope.[MEAN or STDDEV].[XYZ]        | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                                   
+|Time.Gravity.Acceleration.Magnitude.[MEAN or STDDEV]        | floating point | See Notes.               | 1.0 to -1.0 | NA     |   NA       |                        
+|Time.Gravity.Acceleration.[MEAN or STDDEV].[XYZ]        | floating point |   See Notes.             | 1.0 to -1.0 | NA     |   NA       |                               
