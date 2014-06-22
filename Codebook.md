@@ -52,6 +52,7 @@ The set of variables that were estimated from these signals (filtered from the o
 .STDDEV: Standard deviation  
 
 There are a total of 68 variables. For brevity, the names of the fields have been summarised.  
+This dataset had no missing values.
 
 
 |Variable Name | Format | Variable Label | Valid range | Value for missing | Value for inapplicable |
