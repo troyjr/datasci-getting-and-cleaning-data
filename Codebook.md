@@ -39,5 +39,5 @@ Codebook
 |FFT.Body.Acceleration.Jerk.MEAN.[XYZ]| floating point |           |   1.0 to -1.0 | NA | NA |   
 |FFT.Body.Gyroscope.MEAN.[XYZ]|   floating point |           |   1.0 to -1.0 | NA | NA |                       
 |Subject|   integer |           |   1.0 to -1.0 | NA | NA |                                         
-|Activity| One of WALKING etc | | | | 
+|Activity| One of SITTING, STANDiNG, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | A description of the activity the subject was enganing in in the time domain | SITTING, STANDiNG, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | NA | 
 
