@@ -107,7 +107,7 @@ The code is heavily commented and makes use of several helper functions written 
 
 Basic pseudocode for the script is as follows:
 
-
+<pre>
 begin:  
   read in "activity_labels.txt" from directory  
   read in "features.txt" from directory  
@@ -118,7 +118,7 @@ begin:
     add dataset to larger list of datasets
   merge all datasets into single dataset
   sort dataset column names alphabetically
-  if mean is true, calculate mean across subject and activity
+  if mean is true, calculate mean across subject and return mean
   if mean is not true, return final dataset
 end
 
@@ -143,7 +143,7 @@ begin function "rename_columns"
   rename columns to tidy names
   return modified dataset
 end
-
+</pre>
 
   
 
