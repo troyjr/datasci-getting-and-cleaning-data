@@ -12,30 +12,31 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-X, -Y, or -Z' is used to denote tri-axial signals in the X, Y and Z directions.
 
-Time.Body.Acceleration.[XYZ]
-Time.Gravity.Acceleration.[XYZ]
-Time.Gravity.Body.Acceleration.Jerk.[XYZ]
-Time.Body.Body.Gyroscope.[XYZ]
-Time.Body.Gyroscope.Jery.[XYZ]
-Time.Body.Acceleration.Magnitude
-Time.Gravity.Acceleration.Magnitude
-Time.Body.Acceleration.Jerk.Magnitude
-Time.Body.Gyroscope.Magnitude
-Time.Body.Gyroscope.Jerk.Magnitude
-FFT.Body.Acceleration.[XYZ]
-FFT.Body.Acceleration.Jerk.[XYZ]
-FFT.Body.Gyroscope.[XYZ]
-FFT.Body.Acceleration.Magnitude
-FFT.Body.Acceleration.Jerk.Magnitude
-FFT.Body.Gyroscope.Mangitude
-FFT.Body.Gyroscope.Jerk.Magnitude
+Time.Body.Acceleration.[XYZ]  
+Time.Gravity.Acceleration.[XYZ]  
+Time.Gravity.Body.Acceleration.Jerk.[XYZ]  
+Time.Body.Body.Gyroscope.[XYZ]  
+Time.Body.Gyroscope.Jery.[XYZ]  
+Time.Body.Acceleration.Magnitude  
+Time.Gravity.Acceleration.Magnitude  
+Time.Body.Acceleration.Jerk.Magnitude  
+Time.Body.Gyroscope.Magnitude  
+Time.Body.Gyroscope.Jerk.Magnitude  
+FFT.Body.Acceleration.[XYZ]  
+FFT.Body.Acceleration.Jerk.[XYZ]  
+FFT.Body.Gyroscope.[XYZ]  
+FFT.Body.Acceleration.Magnitude  
+FFT.Body.Acceleration.Jerk.Magnitude  
+FFT.Body.Gyroscope.Mangitude  
+FFT.Body.Gyroscope.Jerk.Magnitude  
 
-The set of variables that were estimated from these signals (filtered from the original dataset) as indicated in the field names : 
+The set of variables that were estimated from these signals (filtered from the original dataset) as indicated in the field names :  
 
-.MEAN: Mean value
-.STDDEV: Standard deviation
+.MEAN: Mean value  
+.STDDEV: Standard deviation  
 
-There are a total of 68 variables. For brevity, the names of the fields have been summarised.
+There are a total of 68 variables. For brevity, the names of the fields have been summarised.  
+
 
 |Variable Name | Format | Variable Label | Valid range | Value for missing | Value for inapplicable |
 ---------------|--------|----------------|-------------|-------------------|------------------------|
