@@ -38,6 +38,6 @@ Codebook
 |FFT.Body.Acceleration.MEAN.[XYZ]|  floating point |           |   1.0 to -1.0 | NA | NA |                     
 |FFT.Body.Acceleration.Jerk.MEAN.[XYZ]| floating point |           |   1.0 to -1.0 | NA | NA |   
 |FFT.Body.Gyroscope.MEAN.[XYZ]|   floating point |           |   1.0 to -1.0 | NA | NA |                       
-|Subject|   integer |           |   1.0 to -1.0 | NA | NA |                                         
+|Subject|   integer |   A unique number indicating a given subject   |   1-30 | NA | NA |                                         
 |Activity| One of SITTING, STANDiNG, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | A description of the activity the subject was enganing in in the time domain | SITTING, STANDiNG, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, LAYING | NA | 
 
