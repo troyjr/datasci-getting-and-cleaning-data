@@ -117,8 +117,10 @@ begin:
     add dataset to larger list of datasets
   merge all datasets into single dataset
   sort dataset column names alphabetically
-  if mean is true, calculate mean across subject and return mean
-  if mean is not true, return final dataset
+  if mean is true, calculate mean across subject and activity
+    return mean
+  else
+    return final dataset
 end
 
 begin function "read_dataset":
