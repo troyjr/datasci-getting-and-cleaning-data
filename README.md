@@ -97,7 +97,7 @@ The main function is "run_anaylsis"
 
 It accepts two arguments:
 
-dir - an absolute or relative path to the unzipped UCI HAR Dataset. By default it is "UCI HAR Dataset".
+dir - an absolute or relative path to the unzipped UCI HAR Dataset. By default it is "UCI HAR Dataset".  
 mean - a boolean value. If TRUE it will generate a summary table of means of all values by Subject and Activity.   Otherwise it will generate a the merged test and training sets, only mean and standard deviaton measures, renaming the columns and labels the dataset activities.
 
 The function does not write a csv to disk, but returns a data.frame variable which can be used to write a csv (eg, with write.csv) or manipulated further.
